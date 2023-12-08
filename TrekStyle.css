@@ -10,10 +10,11 @@ align-content
 */
 
 body {
-    background-image: url(images/vertical/sapinsdessus.jpg);
+    background-image:linear-gradient(rgba(35, 90, 33, 0.6), rgb(243, 242, 155, 0.5)), url(images/vertical/sapinsdessusgrand2.jpg);
     background-attachment: fixed;
-    width: 100%;
-    box-sizing: border-box;
+	background-size: cover;
+	box-sizing: content-box;
+	width: 100%;
     font-family: 'Quicksand', sans-serif;
   }
 
@@ -55,38 +56,35 @@ main {
 
 #articles {
 	border: 2px green solid;
+	background-color:rgba(35, 90, 33, 0.8);
 	width: auto;
 
 }
 
 #produitphares {
 	border: 2px green solid;
+	background-color:rgba(35, 90, 33, 0.8);
 	width: auto;
 
 }
 
 #liens {
 	border: 2px green solid;
+	background-color:rgba(35, 90, 33, 0.8);
 	width: auto;
 
 }
 
 div {
 	width: auto;
+	height: auto;
 	text-align: center;
 	vertical-align: middle;
 	color: rgb(243, 242, 155);
+	background-color:rgba(66, 64, 31, 0.8);
 }
 
-div:nth-child(1) {
-	
-}
-div:nth-child(2) {
-	
-}
-div:nth-child(3) {
-	
-}
+
 
 footer {
 	padding: 20px 1pv 20px 10px;
