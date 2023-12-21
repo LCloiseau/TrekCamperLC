@@ -135,10 +135,16 @@ footer {
 .bordurejaune {
 	border: 2px solid rgb(243, 242, 155);
 	border-radius: 10px;
+
 }
 
 .backgroundvert {
-	background-color: rgba(20, 66, 18, 0.6);
+	background: linear-gradient(rgba(40, 122, 37, 0.6), rgba(22, 61, 20, 0.6));
+	border-radius: 10px;
+}
+
+.backgroundvert2 {
+	background: linear-gradient(rgba(22, 61, 20, 0.6), rgba(40, 122, 37, 0.6));
 	border-radius: 10px;
 }
 
@@ -159,7 +165,7 @@ div.scroll1 {
   /* largeur */
 ::-webkit-scrollbar {
 	width: 20px;
-	background: rgba(20, 66, 18); 	
+	background: linear-gradient(rgba(22, 61, 20), rgba(40, 122, 37));
 	border-radius: 15px;
 	border: 2px solid rgb(243, 242, 155);
   }
@@ -178,7 +184,7 @@ div.scroll1 {
    
   /* rampe */
   ::-webkit-scrollbar-thumb {
-	background: rgba(20, 66, 18); 
+	background: linear-gradient(rgba(22, 61, 20), rgba(40, 122, 37));
 	border: 2px solid rgb(243, 242, 155);
 	border-radius: 10px;
   }
